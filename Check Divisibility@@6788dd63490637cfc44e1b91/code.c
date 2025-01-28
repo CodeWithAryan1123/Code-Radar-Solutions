@@ -3,11 +3,11 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    if(a/11 && a/5)
+    if(a%11==0 && a%5==0)
     {
         printf("Divisible");
     }
-    else
+    else if()
     {
         printf("Not Divisible");
     }
