@@ -9,6 +9,6 @@ int main()
     }
     else
     {
-        printf("Flase");
+        printf("False");
     }
 }
