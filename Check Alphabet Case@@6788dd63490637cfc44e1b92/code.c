@@ -8,7 +8,7 @@ int main()
     {
         printf("Uppercase");
     }
-    else
+    else if(islower(ch))
     {
         printf("Lowercase");
     }
