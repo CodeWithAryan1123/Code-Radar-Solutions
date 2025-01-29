@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a,b;
     char operation;
-    scanf("%d%d%c",&a,&b,&operation);
+    int a,b;
+    scanf("%c",&operation);
+    scanf("%d%d",&a,&b);
     int result;
     switch(operation)
     {
