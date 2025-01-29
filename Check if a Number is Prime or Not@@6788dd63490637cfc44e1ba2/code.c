@@ -15,4 +15,8 @@ int main()
             printf("Prime");
         }
     }
+    else
+    {
+        printf("invalid");
+    }
 }
