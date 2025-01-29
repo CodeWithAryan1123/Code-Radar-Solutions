@@ -23,5 +23,7 @@ int main()
         d=a/b;
         printf("%d",d);
         break;
+        default:
+        printf("invalid");
     }
 }
