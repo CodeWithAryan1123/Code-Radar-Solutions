@@ -14,7 +14,7 @@ int main()
         case 'Y':
         printf("Slow Dowm");
         break;
-        default:
-        printf("Invalid");
+        // default:
+        // printf("Invalid");
     }
 }
