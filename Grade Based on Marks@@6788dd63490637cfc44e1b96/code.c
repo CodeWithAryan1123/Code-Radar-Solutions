@@ -21,7 +21,7 @@ int main()
     {
         printf("D");
     }
-    else if(percentage<60)
+    else
     {
         printf("F");
     }
