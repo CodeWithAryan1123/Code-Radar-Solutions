@@ -6,6 +6,7 @@ int main()
     if(a%i==0)
     {
         printf("Prime");
+        break;
     }
     else
     {
