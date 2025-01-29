@@ -9,6 +9,6 @@ int main()
     }
     else
     {
-        printf("Non Prime");
+        printf("Not Prime");
     }
 }
