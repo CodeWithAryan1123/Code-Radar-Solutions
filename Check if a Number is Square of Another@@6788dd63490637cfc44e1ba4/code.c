@@ -2,9 +2,10 @@
 #include<math.h>
 int main()
 {
-    int a,b;
+    int a,b,c;
+    b=sqrt(a);
     scanf("%d",&b);
-    if(a=sqrt(b))
+    if(a==b)
     {
         print("Yes");
     }
