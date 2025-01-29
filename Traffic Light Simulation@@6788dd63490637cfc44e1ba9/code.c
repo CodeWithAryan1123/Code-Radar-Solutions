@@ -1,12 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    char light;
+    char light,sign[10];
     scanf("%d",&light);
     switch(light)
     {
         case 'R':
-        printf("'Stop'");
+        sign='Stop';
+        printf("%s",sign);
         break;
         case 'G':
         printf("'Go'");
