@@ -6,7 +6,7 @@ int main()
     switch(light)
     {
         case 'R':
-        sign='Stop';
+        sign[10]='Stop';
         printf("%s",sign);
         break;
         case 'G':
