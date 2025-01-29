@@ -7,16 +7,16 @@ int main()
     int s=a+b,m=a*b,d=a/b,su=a-b;
     switch(operation)
     {
-        case +:
+        case '+':
         printf("%d",s);
         break;
-        case -:
+        case '-':
         printf("%d",su);
         break;
-        case *:
+        case '*':
         printf("%d",m);
         break;
-        case /:
+        case '/':
         printf("%d",d);
         break;
     }
