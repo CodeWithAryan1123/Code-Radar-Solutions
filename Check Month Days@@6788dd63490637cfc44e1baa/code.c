@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int month;
-    scanf("%d",&month);
-    switch(month)
+    int a;
+    scanf("%d",&a);
+    switch(a)
     {
         case 1:
         printf("31");
