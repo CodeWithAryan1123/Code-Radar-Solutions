@@ -6,15 +6,15 @@ int main()
     switch(light)
     {
         case 'R':
-        printf("Stop\n");
+        printf("Stop");
         break;
         case 'G':
-        printf("Go\n");
+        printf("Go");
         break;
         case 'Y':
-        printf("Slow Down\n");
+        printf("Slow Down");
         break;
         default:
-        printf("Invalid");
+        printf("Invalid input");
     }
 }
