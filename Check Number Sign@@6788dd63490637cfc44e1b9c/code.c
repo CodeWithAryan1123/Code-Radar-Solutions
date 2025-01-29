@@ -13,6 +13,6 @@ int main()
     }
     else
     {
-        peinrf("Zero");
+        printf("Zero");
     }
 }
