@@ -8,12 +8,10 @@ int main()
     if(percentage>=90)
     {
         printf("A");
-        break;
     }
     else if(percentage>=80)
     {
         printf("B");
-        break;
     }
     else if(percentage>=70)
     {
