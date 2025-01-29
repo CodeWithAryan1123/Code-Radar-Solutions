@@ -19,6 +19,5 @@ int main()
         break;
         case 'F':
         printf("Fail");
-        break;
     }
 }
