@@ -1,19 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    char light,sign[10];
+    char light;
     scanf("%d",&light);
     switch(light)
     {
         case 'R':
-        sign[10]='Stop';
-        printf("%s",sign);
+        printf("Stop\n");
         break;
         case 'G':
-        printf("'Go'");
+        printf("Go\n");
         break;
         case 'Y':
-        printf("'Slow Down'");
+        printf("Slow Down\n");
         break;
         // default:
         // printf("Invalid");
