@@ -9,15 +9,15 @@ int main()
     {
         printf("A");
     }
-    else if(percentage>=80 && percentage<90)
+    else if(percentage>=90 && 80>percentage)
     {
         printf("B");
     }
-    else if(percentage>=70 && percentage<80)
+    else if(percentage>=80 && 70>percentage)
     {
         printf("C");
     }
-    else if(percentage>=60 && percentage<70)
+    else if(percentage>=70 && 60>percentage)
     {
         printf("D");
     }
