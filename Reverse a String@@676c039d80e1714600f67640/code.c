@@ -23,7 +23,7 @@ void rev(char* s) {
 }
 
 int main() {
-    char s[100] = "abcde";
+    char s[100];
 	
   	// Reversing s
     rev(s);
