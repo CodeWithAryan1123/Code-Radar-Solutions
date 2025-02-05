@@ -24,7 +24,7 @@ void rev(char* s) {
 
 int main() {
     char s[100];
-	
+    scanf("%s",&s);
   	// Reversing s
     rev(s);
   
