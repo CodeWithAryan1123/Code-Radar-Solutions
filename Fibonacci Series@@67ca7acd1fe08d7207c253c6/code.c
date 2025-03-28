@@ -1,21 +1,19 @@
-#include<stdio.h>
-int fibonacci(int n)
-{
-    int a=0,b=1,i,next;
-    scanf("%d",&n);
-    printf("%d %d",a,b);
-    for(i=2;i<n;i++)
-    {
-        next=a+b;
-        printf("%d",next);
-        a=b;
-        b=next;
-    }
-    return 0;
+#include <stdio.h>
+
+int fibonacci(int n) {
+    if (n <= 1)
+        return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
-int main()
-{
-    int n;
-    scanf("%d",&n);
-    fibonacci(n);
+int main() {
+    int n, i;
+    printf("Enter the number of terms: ");
+    scanf("%d", &n);
+
+    printf("Fibonacci Series: ");
+    for (i = 0; i < n; i++) {
+        printf("%d ", fibonacci(i));
+    }
+
+    return 0;
 }
