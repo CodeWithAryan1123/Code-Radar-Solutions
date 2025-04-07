@@ -6,9 +6,7 @@ void bubbleSort(int arr[],int n)
     {
         for(j=0;j<n-i-1;j++)
         {
-            if 
-            {
-                arr[j+1]>arr[j]
+            if (arr[j+1]>arr[j])
             {
                 int a=arr[j];
                 arr[j]=arr[j+1];
@@ -16,7 +14,6 @@ void bubbleSort(int arr[],int n)
             }
         }
     }
-}
 }
 void printArray(int arr[],int n)
 {
